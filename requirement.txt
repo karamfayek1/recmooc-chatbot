@@ -22,7 +22,7 @@ fastapi>=0.110.0
 uvicorn>=0.29.0
 
 # Translation
-#sentencepiece>=0.1.99
+sentencepiece>=0.1.99
 sacremoses>=0.0.53
 
 # Ollama & ChromaDB (si utilisé localement)
