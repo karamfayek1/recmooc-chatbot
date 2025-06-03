@@ -1,0 +1,33 @@
+#pip install -r requirement.txt
+#uvicorn backend.main:app --reload
+# Core
+torch>=1.12
+transformers>=4.39.3
+datasets>=2.18.0
+sentence-transformers>=2.6.1
+langdetect>=1.0.9
+langid>=1.1.6
+spacy>=3.7.2
+numpy>=1.26.0,<2.0.0
+scipy
+textwrap3>=0.9.2
+# Audio
+sounddevice>=0.4.6
+soundfile>=0.12.1
+librosa>=0.10.1
+
+
+# FastAPI + Server
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Translation
+#sentencepiece>=0.1.99
+sacremoses>=0.0.53
+
+# Ollama & ChromaDB (si utilisé localement)
+ollama>=0.1.6
+chromadb>=0.4.24
+
+# Pydantic for models
+pydantic>=2.5.2
